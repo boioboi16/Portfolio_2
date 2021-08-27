@@ -9,16 +9,17 @@ function init(){
     
     logo.classList.add("invi");
     // logo.style.display='none';
-    loader.style.display='none';
+    
     
     setTimeout(()=>{
       
       
       
       main.classList.add("disp");
+      loader.style.display='none';
      
     },1000)
-    },2500);
+    },3000);
   
     
 }
