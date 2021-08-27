@@ -154,8 +154,8 @@ nav ul li a::before{
  
 }
 .hamburger .line{
-  margin: 8px auto;
-  width:35px;
+  margin: 7px auto;
+  width:30px;
   
   height: 3px;
   background-color:white;
@@ -165,10 +165,10 @@ nav ul li a::before{
   transition: all 0.3s ease-in-out;
   }
   .line.one.animate{
-    -webkit-transform: translateY(12px) rotate(45deg);
-    -ms-transform: translateY(12px) rotate(45deg);
-    -o-transform: translateY(12px) rotate(45deg);
-    transform: translateY(12px) rotate(45deg);
+    -webkit-transform: translateY(10px) rotate(45deg);
+    -ms-transform: translateY(10px) rotate(45deg);
+    -o-transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
   }
   .line.two.animate{
     opacity: 0;
@@ -248,6 +248,7 @@ color: #fff;
 
   width: 50%;
 padding: 10px;
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .left h3{
   text-align: left;
@@ -265,6 +266,7 @@ padding: 10px;
   flex-direction: column;
   align-items: center;
   margin-left: 30px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 #skills{
   padding: 5px;
@@ -358,8 +360,8 @@ color: #fff;
 .middle i:hover{
 color: #22d1ee;
 }
-.image:hover .image {
-  opacity: 0.3;
+.image:hover img{
+  opacity: 0.2;
 }
 
 .image:hover .middle {

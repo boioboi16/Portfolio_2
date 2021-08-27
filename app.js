@@ -4,6 +4,7 @@ let main = document.querySelector(".main");
 let hamburger = document.querySelector(".hamburger");
 let lines = document.querySelectorAll(".line");
 let nav = document.querySelector(".nav");
+let nav_elements = document.querySelectorAll(".nav ul li");
 function init(){
   setTimeout(()=>{
     
@@ -33,6 +34,7 @@ hamburger.addEventListener('click',()=>{
   nav.classList.toggle("open");
 })
 
+// nav_elements.forEach((element)=>{
 
-
+// })
 
