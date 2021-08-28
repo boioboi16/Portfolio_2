@@ -251,7 +251,7 @@ color: #fff;
 
 .container{
   display: flex;
-   align-items: center;
+   align-items: flex-start;
    
   /* justify-content: space-between;  */
   padding: 50px;
@@ -265,6 +265,7 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 .left h3{
   text-align: left;
   font-size: 5vh;
+  letter-spacing: 3px;
 }
 .left p{
   text-align:left;
@@ -272,6 +273,7 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .right h3{
   font-size: 5vh;
+  letter-spacing: 3px;
 }
 .right{
   
@@ -279,12 +281,13 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 30px;
+  justify-content: start;
+  /* align-items: center; */
+  /* margin-left: 30px; */
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 #skills{
-  padding: 5px;
+  
   text-align: left;
   
 }
@@ -480,6 +483,7 @@ footer{
   background-color:var(--footer);
   padding: 20px 23px;
   color:#fff;
+  text-align: center;
 }
 footer span a{
   color:var(--text);
@@ -560,8 +564,9 @@ height:75vh; */
 @media only screen and (max-width: 799px) {
   .container{
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
+     align-items: center;
+    /*justify-content: center; */
+    padding: 25px;
   }
   .contact{
  
@@ -575,9 +580,12 @@ height:75vh; */
 }
 .right{
   width: 70%;
+  padding: 0;
+  margin-top: 30px;
 }
 .left{
   width: 70%;
+  padding: 0;
 }
 }
 @media only screen and (max-width: 550px) {
@@ -602,6 +610,9 @@ height:75vh; */
   .left{
     width: 85%;
   }
+  .container{
+
+  }
   }
 
   @media only screen and (max-width: 360px) {
@@ -615,10 +626,10 @@ height:75vh; */
 
     }
     .left{
-      width: 100%;
+      max-width: 350px;
     }
     .right{
-      width: 100%;
+      max-width: 350px;
     }
     .contact{
       
