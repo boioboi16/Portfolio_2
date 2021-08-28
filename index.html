@@ -190,16 +190,18 @@
       
   <section class="contact" id="contact">
     <h2 >CONTACT</h2>
-    <form action="">
+    <form action="https://formsubmit.co/aaryan.praveen@gmail.com" method="POST">
 
         <div class="form">
-          <input id='name-input' placeholder="Name" required=''>
+          <input name="First Name" id='name-input' placeholder="First Name" required=''>
 
-          <input id='name-input' placeholder="Surname" required=''>
+          <input type="hidden" name='_next' value="hhtps://yourdomain.co/thankyou.html">
+
+          <input name="Last Name" id='name-input' placeholder="Last Name" required=''>
        
-          <input id='email-input' placeholder='Email' required=''>   
+          <input name="Email" id='email-input' placeholder='Email' required=''>   
 
-          <textarea name="" id="message-textarea" cols="30" rows="10" required=''></textarea>
+          <textarea name="message" id="message-textarea" cols="30" rows="10" required=''></textarea>
           
         
         <button class="submit">Send</button>
