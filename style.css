@@ -117,7 +117,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em;
+  padding:2em 50px;
   color:#fff;
   
   
@@ -387,7 +387,7 @@ color: #fff;
 .middle i{
   padding: 15px;
   font-size: 32px;
-  color:#000;
+  color:#fff;
 }
 .middle i:hover{
 color: #22d1ee;
