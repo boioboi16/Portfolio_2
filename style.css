@@ -204,6 +204,7 @@ nav ul li a::before{
 }
 .content{
   margin-top:20vh ;
+  height: 100vh;
 }
 .content h1{
 font-size: 18vh;
@@ -324,8 +325,17 @@ a.resume{
   padding: 10px;
   border-radius: 5px;
   align-self: start;
+  transition: 0.1s all ease;
+}
+a.resume:hover{
+transform: scale(0.9);
 }
 /* ----------------projects-------------- */
+/* .owl-carousel{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
 .projects{
   margin-top: 100px;
   margin-bottom: 30px;
@@ -338,9 +348,10 @@ a.resume{
 }
 .max-width{
   margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: space-around; */
+  
 }
 .image:hover{
  cursor: pointer;
@@ -363,8 +374,8 @@ border-radius: 10px;
 }
 .card{
 border-radius: 10px;
-width: 400px;
-height: 500px;
+width: 350px;
+/* height: 500px; */
 /* box-shadow: 0 1px 3px rgba(255,255,255,0.12), 0 1px 2px rgba(255,255,255,0.24); */
 transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 color: #fff;
@@ -414,6 +425,7 @@ padding: 5px;
 }
 .about-project{
   padding: 10px;
+  /* padding-bottom: 30px; */
 }
 .github-links a{
   text-decoration: none;
@@ -422,9 +434,14 @@ padding: 5px;
   background-color: #3d5af1;
   margin-left:10px;
   border-radius: 5px;
+  transition: 0.1s all ease-in-out;
 }
 .github-links a:hover{
   cursor: pointer;
+  background-color: #fff;
+  color: #3d5af1;
+ 
+
 }
 /* -------------------contact ---------------------*/
 .contact{
@@ -555,12 +572,13 @@ footer span a{
     }
 /* --------------Projects--------------- */
 .max-width{
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: center; */
+  /* justify-content: center; */
     }
 .card{
-margin-top: 100px;
+margin-top: 40px;
 /* width:30vw;
 height:75vh; */
     }
@@ -568,7 +586,7 @@ height:75vh; */
 }
 @media only screen and (max-width: 1020px) {
   .card{
-    margin-top: 100px;
+    margin-top: 40px;
     /* width:97%;
     height:500px; */
   }
@@ -633,6 +651,9 @@ height:75vh; */
   }
   .container{
 
+  }
+  .projects{
+    padding: 30px;
   }
 
   }

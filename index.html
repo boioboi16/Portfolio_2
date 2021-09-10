@@ -6,8 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/png" href="images/letterA.svg">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css"> -->
+  
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="style.css">
+  
   <title>Aaryan Praveen</title>
 </head>
 <body>
@@ -117,6 +126,9 @@
   <section class="projects" id="projects">
     <h2 class="title"  >PROJECTS</h2>
     <div class="max-width">
+
+      <div class="owl-carousel owl-theme">
+       <!-- /card1----------------------------------------------- -->  
       <div class="card" >
         <div class="image">
           <img class="" src="images/word-hunt.JPG" alt="Avatar" class="image" style="width:100%">
@@ -151,6 +163,7 @@
         </div>
     
       </div>
+      <!-- /card2----------------------------------------------- -->
       <div class="card" >
         <div class="image">
           <img  src="images/lyrics-finder App.JPG" alt="Avatar"  style="width:100%">
@@ -187,8 +200,142 @@
           </div>
         </div>
       </div>
-  </section>
       
+<!--card3 ------------ -->
+      <div class="card" >
+        <div class="image">
+          <img  src="/images/imdb-clone.JPG" alt="Avatar"  style="width:100%">
+          <div class="middle">
+            <div>
+              <a href="https://github.com/boioboi16/IMDB-Clone">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div>
+              <a href="https://boioboi16.github.io/IMDB-Clone/">
+                <i class="fas fa-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-project">
+          <h2>IMdb Clone App</h2>
+          <p>A React App that can be used to search movies similar to IMDB .It
+            was made using OMDB API and react hooks such as useState,
+            useEffect,useContext and react-router.</p>
+          <ul class="tech">
+            <li>React</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Context API</li>
+
+            
+          </ul>
+          <div class="github-links">
+            <a href="https://github.com/boioboi16/IMDB-Clone">
+              Github
+            </a>
+            <a href="https://boioboi16.github.io/IMDB-Clone/">
+              Live View
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    <!-- --------------------- card4 -------------------------------->
+    <div class="card" >
+      <div class="image">
+        <img  src="/images/markdown.JPG" alt="Avatar"  style="width:100%">
+        <div class="middle">
+          <div>
+            <a href="https://github.com/boioboi16/Mark-down-App">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div>
+            <a href="https://boioboi16.github.io/Mark-down-App/">
+              <i class="fas fa-laptop"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="about-project">
+        <h2>Markdown App</h2>
+        <p>A React App which converts Markdown ( a text formatting syntax ) to HTML code using react-markdown.
+          The changes made in Markdown are re-rendered in HTML as you type. It was made using react hooks such as useState and useEffect.</p>
+        <ul class="tech">
+          <li>React</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+         
+
+          
+        </ul>
+        <div class="github-links">
+          <a href="https://github.com/boioboi16/Mark-down-App">
+            Github
+          </a>
+          <a href="https://boioboi16.github.io/Mark-down-App/">
+            Live View
+          </a>
+        </div>
+      </div>
+    </div>  
+
+    <!---------------------------- card5 ---------------------------->
+        <div class="card" >
+      <div class="image">
+        <img  src="/images/Rock Paper Scissor.JPG" alt="Avatar"  style="width:100%">
+        <div class="middle">
+          <div>
+            <a href="https://github.com/boioboi16/rock-paper-and-scissor">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div>
+            <a href="https://boioboi16.github.io/rock-paper-and-scissor/">
+              <i class="fas fa-laptop"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="about-project">
+        <h2>Rock Paper Scissor</h2>
+        <p>A React App which converts Markdown ( a text formatting syntax ) to HTML code using react-markdown.
+          The changes made in Markdown are re-rendered in HTML as you type. It was made using react hooks such as useState and useEffect.</p>
+        <ul class="tech">
+          <li>React</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+         
+
+          
+        </ul>
+        <div class="github-links">
+          <a href="https://github.com/boioboi16/rock-paper-and-scissor">
+            Github
+          </a>
+          <a href="https://boioboi16.github.io/rock-paper-and-scissor/">
+            Live View
+          </a>
+        </div>
+      </div>
+    </div>  
+    <!-------------------------------- //-------------------- -->
+
+
+
+
+    </div>
+  </section>
+  <!-- <div class="more">
+    <p>
+      More 
+    </p>
+  </div> -->
   <section class="contact" id="contact">
     <h2 >CONTACT</h2>
     <form action="https://formsubmit.co/aaryan.praveen@gmail.com" method="POST">
@@ -226,58 +373,11 @@
 
 
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <!-- <script>
-    AOS.init({
-  // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
 
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: true, // whether animation should happen only once - while scrolling down
-  mirror: true, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-});
-  </script> -->
 
-  <script>
-    AOS.init(
-      {
-        offset: 100, // offset (in px) from the original trigger point
-  // delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1000,
-  easing: 'ease', 
-//   ease-out
-// ease-in-out
-// ease-in-back
-// ease-out-back
-// ease-in-out-back
-// ease-in-sine
-// ease-out-sine
-// ease-in-out-sine
-// ease-in-quad
-// ease-out-quad
-// ease-in-out-quad
-// ease-in-cubic
-// ease-out-cubic
-// ease-in-out-cubic
-      }
-    );
-  </script>
-
-  
   <script src="app.js"></script>
 </body>
 </html>
